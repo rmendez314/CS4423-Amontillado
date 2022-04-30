@@ -810,6 +810,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95cd665f4b246854cb3dee8fa703a815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  agent: {fileID: 139928003}
+  player: {fileID: 618904473}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 1024
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 64
+  health: 100
+  walkPoint: {x: 0, y: 0, z: 0}
+  walkPointRange: 5
+  timeBetweenAttacks: 0.5
+  projectile: {fileID: 1399622674}
+  sightRange: 20
+  attackRange: 7
+  playerInSightRange: 0
+  playerInAttackRange: 0
 --- !u!1001 &198462912
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1312,6 +1329,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95cd665f4b246854cb3dee8fa703a815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  agent: {fileID: 469755167}
+  player: {fileID: 1265318393}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 1024
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 64
+  health: 100
+  walkPoint: {x: 0, y: 0, z: 0}
+  walkPointRange: 7
+  timeBetweenAttacks: 2
+  projectile: {fileID: 1399622674}
+  sightRange: 15
+  attackRange: 7
+  playerInSightRange: 0
+  playerInAttackRange: 0
 --- !u!195 &469755167
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1653,6 +1687,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3402961058265162242, guid: 44d2a192506a1624eb6cb57abae1ec6d, type: 3}
   m_PrefabInstance: {fileID: 3402961058568329684}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &618904473 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3402961058265162252, guid: 44d2a192506a1624eb6cb57abae1ec6d, type: 3}
+  m_PrefabInstance: {fileID: 3402961058568329684}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &618904476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1778,6 +1817,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95cd665f4b246854cb3dee8fa703a815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  agent: {fileID: 670830855}
+  player: {fileID: 1265318393}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 1024
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 64
+  health: 100
+  walkPoint: {x: 0, y: 0, z: 0}
+  walkPointRange: 7
+  timeBetweenAttacks: 2
+  projectile: {fileID: 1399622674}
+  sightRange: 15
+  attackRange: 5
+  playerInSightRange: 0
+  playerInAttackRange: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2349,6 +2405,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95cd665f4b246854cb3dee8fa703a815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  agent: {fileID: 842152176}
+  player: {fileID: 1265318393}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 1024
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 64
+  health: 100
+  walkPoint: {x: 0, y: 0, z: 0}
+  walkPointRange: 5
+  timeBetweenAttacks: 0.5
+  projectile: {fileID: 1399622674}
+  sightRange: 20
+  attackRange: 7
+  playerInSightRange: 0
+  playerInAttackRange: 0
 --- !u!195 &842152176
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2803,6 +2876,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95cd665f4b246854cb3dee8fa703a815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  agent: {fileID: 1062121576}
+  player: {fileID: 1265318393}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 1024
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 64
+  health: 200
+  walkPoint: {x: 0, y: 0, z: 0}
+  walkPointRange: 5
+  timeBetweenAttacks: 0.5
+  projectile: {fileID: 1399622674}
+  sightRange: 15
+  attackRange: 7
+  playerInSightRange: 0
+  playerInAttackRange: 0
 --- !u!1001 &1062814785
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3233,6 +3323,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95cd665f4b246854cb3dee8fa703a815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  agent: {fileID: 1164373468}
+  player: {fileID: 1265318393}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 1024
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 64
+  health: 100
+  walkPoint: {x: 0, y: 0, z: 0}
+  walkPointRange: 5
+  timeBetweenAttacks: 0.5
+  projectile: {fileID: 1399622674}
+  sightRange: 15
+  attackRange: 7
+  playerInSightRange: 0
+  playerInAttackRange: 0
 --- !u!1001 &1171151533
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3450,6 +3557,34 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187637458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 1024
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_BuildHeightMesh: 0
+  m_NavMeshData: {fileID: 23800000, guid: 34f4ad367134b0d448cd5a4bcf519c22, type: 2}
+--- !u!4 &1265318393 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3402961059925618664, guid: 44d2a192506a1624eb6cb57abae1ec6d, type: 3}
+  m_PrefabInstance: {fileID: 3402961058568329684}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1187637458}
   m_Enabled: 1
@@ -4881,6 +5016,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95cd665f4b246854cb3dee8fa703a815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  agent: {fileID: 1890181385}
+  player: {fileID: 1265318393}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 1024
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 64
+  health: 100
+  walkPoint: {x: 0, y: 0, z: 0}
+  walkPointRange: 7
+  timeBetweenAttacks: 2
+  projectile: {fileID: 1399622674}
+  sightRange: 25
+  attackRange: 7
+  playerInSightRange: 0
+  playerInAttackRange: 0
 --- !u!195 &1890181385
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -4920,6 +5072,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95cd665f4b246854cb3dee8fa703a815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  agent: {fileID: 1892682271}
+  player: {fileID: 1265318393}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 1024
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 64
+  health: 100
+  walkPoint: {x: 0, y: 0, z: 0}
+  walkPointRange: 7
+  timeBetweenAttacks: 2
+  projectile: {fileID: 1399622674}
+  sightRange: 15
+  attackRange: 7
+  playerInSightRange: 0
+  playerInAttackRange: 0
 --- !u!195 &1892682271
 NavMeshAgent:
   m_ObjectHideFlags: 0
