@@ -73,7 +73,7 @@ public class PlayerMovement : MonoBehaviour
         //jump
         if (Input.GetKey(KeyCode.Space) && canJump && grounded)
 		{
-            print("Jumping");
+            //print("Jumping");
             canJump = false;
             Jump();
             Invoke(nameof(ResetJump), jumpCooldown);
