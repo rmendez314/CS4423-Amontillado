@@ -27,7 +27,7 @@ public class CharacterStats : MonoBehaviour
 		}
 	}
 
-    public void Die()
+    public virtual void Die()
     {
         isDead = true;
     }

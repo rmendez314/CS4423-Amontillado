@@ -31,11 +31,14 @@ public class PlayerMovement : MonoBehaviour
     Vector3 moveDirection;
     Rigidbody rb;
 
+    private PlayerStats stats;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
         canJump = true;
+        stats = GetComponent<PlayerStats>();
     }
 
     // Update is called once per frame
@@ -62,7 +65,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
 	{
-        MovePlayer();
+        if(!stats.IsDead())
+            MovePlayer();
 	}
 
     private void PlayerInput()

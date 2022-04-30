@@ -12,9 +12,13 @@ public class PlayerCamera : MonoBehaviour
     public float xRotation;
     public float yRotation;
 
+    private PlayerStats stats;
+
     // Start is called before the first frame update
     void Start()
     {
+        stats = transform.parent.parent.Find("Player").gameObject.GetComponent<PlayerStats>();
+
         Cursor.lockState = CursorLockMode.Locked; //locks cursor to middle of the screen
         Cursor.visible = false; //makes cursor not visible
     }
@@ -31,7 +35,15 @@ public class PlayerCamera : MonoBehaviour
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
         //rotate camera and orientation
-        transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
-        orientation.rotation = Quaternion.Euler(0, yRotation, 0);
+        if(!stats.IsDead())
+		{
+            transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
+            orientation.rotation = Quaternion.Euler(0, yRotation, 0);
+        }
+        else if(Cursor.lockState == CursorLockMode.Locked)
+		{
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }            
     }
 }
