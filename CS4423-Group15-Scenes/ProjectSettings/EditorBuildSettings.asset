@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: e2f4bfa8a251fa74f8008537d58f93c5
+  - enabled: 1
     path: Assets/Scenes/Gabriel's Scene.unity
     guid: d5afad11af6861a4ebaddcfe1e5b86f1
   - enabled: 1
