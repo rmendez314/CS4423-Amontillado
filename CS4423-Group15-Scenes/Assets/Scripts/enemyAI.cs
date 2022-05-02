@@ -11,6 +11,8 @@ public class enemyAI: MonoBehaviour
 
     public float health;
 
+    public PlayerStats playerStats;
+
     //Patroling
     public Vector3 walkPoint;
     bool walkPointSet;
@@ -27,6 +29,7 @@ public class enemyAI: MonoBehaviour
 
     private void Awake()
     {
+        playerStats = GameObject.Find("PlayerModel").GetComponent<PlayerStats>();
         player = GameObject.Find("PlayerModel").transform;
         agent = GetComponent<NavMeshAgent>();
     }
