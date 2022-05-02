@@ -48,12 +48,16 @@ public class PlayerStats : CharacterStats
 		//Check for sight and attack range
 		playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsEnemy);
 		playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsEnemy);
-		// check if player has been attacked
-		if(!alreadyAttacked){
+		if (Input.GetKeyDown(KeyCode.T))
+		{
+			TakeDamage(25);
+		}
+			// check if player has been attacked
+			if (!alreadyAttacked){
 			playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsEnemy);
 			playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsEnemy);
 			if (playerInAttackRange && playerInSightRange) {
-				Debug.LogWarning("Player has been attacked");
+				//Debug.LogWarning("Player has been attacked");
 				TakeDamage(5);
 				alreadyAttacked = true;
             	Invoke(nameof(ResetAttack), timeBetweenAttacks);

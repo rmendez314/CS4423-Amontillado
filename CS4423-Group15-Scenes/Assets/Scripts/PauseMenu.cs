@@ -8,20 +8,20 @@ public class PauseMenu : MonoBehaviour
     public static bool PauseGame = false;
 
     public GameObject PauseMenuOp;
+    private PlayerStats stats;
 
+    void Start()
+	{
+        if (PauseGame)
+        {
+            Resume();
+        }
+        stats = transform.parent.Find("Player").gameObject.GetComponent<PlayerStats>();
+    }
 
     void Update()
-    {
-        if (PauseGame && PauseMenuOp != null) 
-        { 
-            Cursor.lockState = CursorLockMode.None; 
-            Cursor.visible = true; 
-        } 
-        else 
-            Cursor.lockState = CursorLockMode.Locked; 
-            Cursor.visible = false;
-
-        if (Input.GetKeyDown(KeyCode.Escape))
+    {    
+        if (Input.GetKeyDown(KeyCode.Escape) && !stats.IsDead())
         {
             if (PauseGame)
             {
@@ -40,6 +40,8 @@ public class PauseMenu : MonoBehaviour
         PauseMenuOp.SetActive(false);
         Time.timeScale = 1f;
         PauseGame = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     public void Pause()
@@ -47,6 +49,8 @@ public class PauseMenu : MonoBehaviour
         PauseMenuOp.SetActive(true);
         Time.timeScale = 0f;
         PauseGame = true;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     public void LoadMenu()
