@@ -90,11 +90,12 @@ public class enemyAI: MonoBehaviour
         agent.SetDestination(transform.position);
 
         transform.LookAt(player);
-
+        
         if (!alreadyAttacked)
         {
-
             // ///Attack code here
+            // PlayerStats currPlayer = GameObject.Find("PlayerModel").GetComponent<PlayerStats>();
+            // currPlayer.TakeDamage(5);
             // Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
             // rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
             // rb.AddForce(transform.up * 8f, ForceMode.Impulse);
