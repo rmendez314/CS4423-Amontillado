@@ -19,9 +19,9 @@ A Unity Project called Amontillado, this game revolves around an urban explorer 
 
 
 #### Packages:
-•	Catacomb wall 001: https://3dtextures.me/2021/03/31/catacomb-wall-001/
-•	Terrain Textures Free: https://assetstore.unity.com/packages/2d/textures-materials/nature/terrain-textures-pack-free-139542
-•	Skulls & Bones Textures: https://assetstore.unity.com/packages/2d/textures-materials/skulls-bones-textures-82816
-•	Free Rigged Skeleton and Bone Collection: https://assetstore.unity.com/packages/3d/props/free-rigged-skeleton-and-bone-collection-166829
-•	Rock Textures – 4k: https://assetstore.unity.com/packages/2d/textures-materials/rock-textures-4k-179128
-•	PBR dirt and Mud Material Pack: https://assetstore.unity.com/packages/2d/textures-materials/floors/pbr-dirt-and-mud-material-pack-178597
+* Catacomb wall 001: https://3dtextures.me/2021/03/31/catacomb-wall-001/
+* Terrain Textures Free: https://assetstore.unity.com/packages/2d/textures-materials/nature/terrain-textures-pack-free-139542
+* Skulls & Bones Textures: https://assetstore.unity.com/packages/2d/textures-materials/skulls-bones-textures-82816
+* Free Rigged Skeleton and Bone Collection: https://assetstore.unity.com/packages/3d/props/free-rigged-skeleton-and-bone-collection-166829
+* Rock Textures – 4k: https://assetstore.unity.com/packages/2d/textures-materials/rock-textures-4k-179128
+* PBR dirt and Mud Material Pack: https://assetstore.unity.com/packages/2d/textures-materials/floors/pbr-dirt-and-mud-material-pack-178597
