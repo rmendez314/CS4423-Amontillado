@@ -1,8 +1,8 @@
 # CS4423-Amontillado
-A Unity Project called Amontillado, this game revolves around an urban explorer who falls deep into the Paris Catacombs while exploring and has to fight his way through the undead to make his way out.
-
 
 ### Created by: Ramiro Mendez, Gabriel Pastelero, Faisal Najjar, Minh Le, Ryan Harris
+A Unity Project called Amontillado, this game revolves around an urban explorer who falls deep into the Paris Catacombs while exploring and has to fight his way through the undead to make his way out.
+
 
 #### Current Stage:
 * The project is coming together as expected with enemies, enemies’ attack player’s health bar, and very two different catacomb stages where the player can teleport to and explore.
